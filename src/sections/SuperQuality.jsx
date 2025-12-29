@@ -1,6 +1,8 @@
 import { arrowRight } from '../assets/icons'
 import {shoe8} from '../assets/images'
 import Button from '../components/button'
+import { thumbnailBackground } from '../assets/images';
+
 
 const SuperQuality = () => {
   return (
@@ -31,15 +33,24 @@ const SuperQuality = () => {
         </div>
        </div>
 
-      <div>
-        <img
-        src={shoe8}
-        alt='product details'
-        width={570}
-        height={552}
-        className='object-contain'
-        />
-      </div>
+<div className='relative flex flex-1 justify-center items-center bg-primary bg-hero bg-cover bg-center 
+                rounded-xl min-h-[500px] w-full max-w-[700px] overflow-hidden'>
+  
+  <img
+    src={thumbnailBackground}
+    alt='thumbnail background'        
+    className='absolute inset-0 w-full h-full object-cover'
+  />
+
+
+  <img
+    src={shoe8}
+    alt='product details'
+    className='relative z-10 w-full h-auto object-contain 
+               scale-110 -rotate-[15deg] 
+               transition-transform duration-500 hover:scale-125'
+  />
+</div>
 
     </section>
   )

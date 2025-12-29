@@ -32,22 +32,22 @@ export const statistics = [
 export const products = [
     {
         imgURL: shoe4,
-        name: "Nike Air Jordan-01",
-        price: "$200.20",
+        name: "Nike Air Jordan 4 J-Balvin",
+        price: "$250.00",
     },
     {
         imgURL: shoe5,
-        name: "Nike Air Jordan-10",
-        price: "$210.20",
+        name: "Nike Fear of God 1",
+        price: "$350.00",
     },
     {
         imgURL: shoe6,
-        name: "Nike Air Jordan-100",
+        name: "Converse Chuck Taylor Hightops",
         price: "$220.20",
     },
     {
         imgURL: shoe7,
-        name: "Nike Air Jordan-001",
+        name: "Nike Air Foamposite Volt",
         price: "$230.20",
     },
 ];
@@ -73,15 +73,15 @@ export const services = [
 export const reviews = [
     {
         imgURL: customer1,
-        customerName: 'Morich Brown',
+        customerName: 'Ole watkins',
         rating: 4.5,
         feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
     },
     {
         imgURL: customer2,
-        customerName: 'Lota Mongeskar',
+        customerName: 'Serena Vanderwood',
         rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+        feedback: "The product not only met but exceeded my expectations. The design is sleek and the performance is top-tier!"
     }
 ];
 

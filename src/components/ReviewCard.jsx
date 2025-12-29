@@ -6,7 +6,7 @@ const ReviewCard = ({customerName,imgURL,rating,feedback}) => {
       <img 
         src={imgURL}
         alt="customer" 
-        className="rounded-full object-cover w-[120px] h-[120px]"
+        className="rounded-full object-cover w-[120px] h-[120px] contrast-95 saturate-90 blur-[0.2px]"
       />  
       <p className="mt-6 max-w-sm text-center info-text ">
         {feedback}
