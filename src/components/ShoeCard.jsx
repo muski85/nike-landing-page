@@ -1,19 +1,5 @@
 const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImg }) => {
-  // Debug what we receive
-  // console.log("ShoeCard received imgURL:", imgURL);
-  // console.log("ShoeCard received bigShoeImg:", bigShoeImg);
-
-  // Add error handling for undefined imgURL
-  // if (!imgURL) {
-  //   console.error("ShoeCard: imgURL is undefined");
-  //   return <div className="w-40 h-40 bg-gray-200 rounded-xl flex items-center justify-center">No Image</div>;
-  // }
-
-  // Add error handling for missing properties
-  // if (!imgURL.bigShoe || !imgURL.thumbnail) {
-  //   console.error("ShoeCard: Missing bigShoe or thumbnail property", imgURL);
-  //   return <div className="w-40 h-40 bg-gray-200 rounded-xl flex items-center justify-center">Invalid Image Data</div>;
-  // }
+ 
 
   const handleClick = () => {
     if (bigShoeImg !== imgURL.bigShoe && changeBigShoeImage) {
