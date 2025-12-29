@@ -1,6 +1,6 @@
 import { arrowRight } from '../assets/icons'
 import {shoe8} from '../assets/images'
-import Button from '../components/button'
+import Button from '../components/Button'
 import { thumbnailBackground } from '../assets/images';
 
 
